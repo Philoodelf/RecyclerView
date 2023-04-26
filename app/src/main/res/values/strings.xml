@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name" translatable="false">carRenting</string>
+    <string name="available">Available</string>
+    <string name="out">Out of Stock</string>
+    <string name="soon">Coming Soon</string>
+    <string name="merc">Mercedes</string>
+    <string name="kia">KIA</string>
+    <string name="verna">Verna</string>
+    <string name="logan">Logan</string>
+    <string name="pegu">Peugeot</string>
+    <string name="tesla">Tesla</string>
+</resources>

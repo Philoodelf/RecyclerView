@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="available">متوفر</string>
+    <string name="out">نفذت الكمية</string>
+    <string name="soon">يتوفر قريبا</string>
+    <string name="merc">مرسيدس</string>
+    <string name="kia">كيا</string>
+    <string name="verna">ڤيرنا</string>
+    <string name="logan">لوجان</string>
+    <string name="pegu">بيچو</string>
+    <string name="tesla">تيسلا</string>
+</resources>
