@@ -17,7 +17,6 @@ import android.content.Context;
 
 public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
     private final RecyclerViewInterface recyclerViewInterface;
-// private ArrayList<Model> data;
  Context context ;
 
  public Adapter(ArrayList<Model> data,Context context, RecyclerViewInterface recyclerViewInterface){
@@ -55,7 +54,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder  {
-     int position;
+        int position;
         public TextView name;
         public ImageView image;
         public TextView status;
