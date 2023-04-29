@@ -40,12 +40,6 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
       int x= Contans.contArr.get(position).image;
       holder.image.setImageResource(x);
       holder.status.setText(Contans.contArr.get(position).status);
-//      holder.itemView.setOnClickListener(new View.OnClickListener() {
-//          @Override
-//          public void onClick(View v) {
-//
-//          }
-//      });
     }
 
     @Override
@@ -80,21 +74,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
                     context.startActivity(intent);
                 }
             });
-
-
-
         }
-
-//        @Override
-//        public void onClick(View vi) {
-//            Intent intent = new Intent(context, details.class);
-//            intent.putExtra("image", image.getDrawable().toString());
-//            context.startActivity(intent);
-//
-//        }
-
-
-
     }
 
 }
